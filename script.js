@@ -8,7 +8,7 @@ function expoPopuGrowth() {
     let regionOfMonster = prompt('Enter region of monster:');
     let monsterName = prompt('Enter name of monster:');
 
-    let monsterInformation = monsterName.concat(" ", monsterName).toUpperCase();
+    let monsterInformation = regionOfMonster.concat(" ", monsterName).toUpperCase();
 
     document.getElementById('result').innerHTML = `After ${time} hours, the population of ${monsterName} has risen to ${finalPopulationGrowth}!`;
 
