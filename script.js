@@ -10,6 +10,6 @@ function expoPopuGrowth() {
 
     let monsterInformation = regionOfMonster.concat(" ", monsterName).toUpperCase();
 
-    document.getElementById('result').innerHTML = `After ${time} hours, the population of ${monsterName} has risen to ${finalPopulationGrowth}!`;
+    document.getElementById('result').innerHTML = `After ${time} hours, the population of ${monsterInformation} has risen to ${finalPopulationGrowth}!`;
 
 }
